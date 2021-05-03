@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div>
+
             <footer className="footer mt-auto py-3 bg-dark">
                 <div className="container">
                     <p className="text-light">App desenvolvido por <a href="https://github.com/celsoaquino/projeto-sds3" target="_blank"
@@ -11,7 +11,6 @@ const Footer = () => {
                                                                      rel="noreferrer">@devsuperior.ig</a></small></p>
                 </div>
             </footer>
-        </div>
     );
 }
 
