@@ -1,10 +1,17 @@
-function App() {
-  return (
-    <div>
-      <h1 className="text-primary">Olá mundo!</h1>
+import NavBAr from "./components/NavBar";
+import Footer from "./components/Footer";
+import DataTable from "./components/DataTable";
 
-    </div>
-  );
+function App() {
+    return (
+        <>
+            <NavBAr/>
+            <div className="container">
+                <DataTable />
+            </div>
+            <Footer />
+        </>
+    );
 }
 
 export default App;
